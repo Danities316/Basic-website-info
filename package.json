@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "An E-Sketch: Pixel Sketch App that enables you to Draw Mastering my DOM Skills",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danities316/E-sktech.git"
+  },
+  "author": "Danities Ichaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danities316/E-sktech/issues"
+  },
+  "homepage": "https://github.com/Danities316/E-sktech#readme",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "nodemon": "^2.0.19"
+  }
+}

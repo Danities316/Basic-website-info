@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.header {
+  background-color: #212529;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  text-align: center;
+  font-size: 1rem;
+  /* border-bottom: 1px solid #dee2e6; */
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20px;
+  color: white;
+  justify-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 13px 13px;
+  color: #fdfeff;
+  margin-right: 5px;
+  border-bottom: 2px solid rgba(51, 154, 240, 0);
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  background-color: #d0ebff;
+  border-bottom-color: rgba(51, 154, 240, 1);
+}
+.nav-link.current {
+  border-bottom-color: rgba(25, 113, 194, 1);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  height: 12cm;
+}
+.left-section {
+  color: white;
+  /* text-align: center; */
+  padding: 75px 5px 0px 135px;
+  font-size: 18px;
+}
+.right-section{
+  margin-top: 35px;
+  
+}
+.small-text {
+  margin-top: -18px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+}
+.col {
+  width: 100px;
+  height: 25px;
+  /* background-color: aqua; */
+  margin: 18px;
+  padding: 48px;
+  text-align: center;
+  border: 2px solid #3882f6;
+  border-radius: 12px;
+}
+
+.signup-btn {
+  background-color: #3882f6;
+  padding: 12px 18px 12px 18px;
+  margin-top: -15px;
+  color: white;
+  align-items: flex-start;
+  border-radius: 5px;
+  font-size: 14px;
+  border-color: white;
+}
+.signup-btn:hover {
+  background-color: #3882f6;
+  border-color: wheat;
+}
+.main {
+  margin-bottom: 24px;
+}
+.main > h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.qoute {
+  display: flex;
+  flex-direction: row;
+  /* height: 65px; */
+  background-color: #e5e7eb;
+  padding: 2.5cm;
+  justify-content: center;
+}
+.text-right {
+  font-weight: 600;
+  text-align: end;
+}
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3882f6;
+  margin: 115px;
+  border-radius: 15px;
+  padding: 32px;
+  color: white;
+}
+.cta p {
+  padding-left: 18px;
+}
+.cta h3 {
+  margin-bottom: -10px;
+  padding-left: 18px;
+}
+.cta button {
+  margin-top: 35px;
+  border-color: white;
+  margin-left: 25px;
+}
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 14px;
+  color: white;
+}
+
+/****************************** Mobile section******************** */
+@media (min-width: 768px) {
+  .nav {
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-link {
+    padding: 20px 20px;
+  }
+}
+
+/* More button design */
+.nav-icon {
+  padding: 0 5px;
+  width: 10px;
+}
+
+button {
+  /*   background-color: #ffffff;
+  color: #2a2a2a;
+  padding: 15px 15px;
+  border: none; */
+}
+button:hover {
+  /* background-color: #d6336c; */
+}
+.nav-dropdown.is-active {
+  display: block;
+}
+
+.nav-dropdown {
+  margin-top: 10px;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-dropdown {
+    display: inline-block;
+    margin-top: 0;
+  }
+  .with-dropdown {
+    display: none;
+  }
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Pr
