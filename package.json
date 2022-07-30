@@ -4,6 +4,7 @@
   "description": "An E-Sketch: Pixel Sketch App that enables you to Draw Mastering my DOM Skills",
   "main": "script.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
